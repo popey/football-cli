@@ -1,4 +1,4 @@
-name: football
+name: footie
 version: 'master'
 summary: football-cli
 description: |
@@ -8,11 +8,11 @@ grade: stable
 confinement: strict
 
 apps:
-  football:
+  footie:
     command: bin/football
     plugs: [network]
 
 parts:
-  football:
+  footie:
     plugin: nodejs
     source: .
