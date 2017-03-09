@@ -1,5 +1,5 @@
 name: footie
-version: 'master'
+version: '0.13.6'
 summary: football-cli
 description: |
   Command line interface for Hackers who love football
